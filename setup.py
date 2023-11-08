@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'performance_node_pkg_py'
+package_name = 'RDKX3PerformanceNode'
 
 setup(
     name=package_name,
@@ -12,7 +12,8 @@ setup(
         package_name + '.static.images',
         ],
     data_files=[
-        ('share/ament_index/resource_index/packages',['resource/' + package_name]),
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
     package_data={
@@ -31,7 +32,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'performance_node = performance_node_pkg_py.performance_node:main',
+            'performance_node = RDKX3PerformanceNode.performance_node:main',
         ],
     },
 )
