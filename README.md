@@ -28,14 +28,14 @@ pip install flask==3.0.0 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-hos
 
 ```
 sudo apt update
-sudo apt install -y tros-performance-node-pkg-py
+sudo apt install -y tros-RDKX3PerformanceNode
 ```
 
 **运行**
 
 ```
 source /opt/tros/setup.bash
-ros2 run performance_node_pkg_py performance_node
+ros2 run performance_node_pkg_py RDKX3PerformanceNode
 ```
 
 **在同一局域网访问X3的5000端口即可**
