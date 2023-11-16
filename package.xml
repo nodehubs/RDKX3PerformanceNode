@@ -3,9 +3,9 @@
 <package format="3">
   <name>RDKX3PerformanceNode</name>
   <version>0.0.0</version>
-  <description>Show RDK X3 & RDK X3 Module CPU, BPU, Memory and Disk info on Web.</description>
+  <description>Show RDK X3 and RDK X3 Module CPU, BPU, Memory and Disk info on Web.</description>
   <maintainer email="2672873269@qq.com">WuChao_JMUer</maintainer>
-  <license>Licensed under the Apache License, Version 2.0</license>
+  <license>Apache License, Version 2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
