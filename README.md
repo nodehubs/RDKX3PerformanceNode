@@ -35,7 +35,7 @@ sudo apt install -y tros-RDKX3PerformanceNode
 
 ```
 source /opt/tros/setup.bash
-ros2 run performance_node_pkg_py RDKX3PerformanceNode
+ros2 run RDKX3PerformanceNode RDKX3PerformanceNode
 ```
 
 **在同一局域网访问X3的5000端口即可**
