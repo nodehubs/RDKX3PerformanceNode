@@ -32,7 +32,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'performance_node = RDKX3PerformanceNode.performance_node:main',
+            'RDKX3PerformanceNode = RDKX3PerformanceNode.performance_node:main',
         ],
     },
 )
